@@ -1,0 +1,192 @@
+@font-face{
+    font-family: "main-font";
+    src:url("res/14215.otf")format("truetype");
+    font-style: italic;
+}
+body{
+    width: 1000px;
+    margin: 0 auto;
+    border: 1px solid black;
+    box-shadow: 10px 10px 5px rgba(0,0,0,0.5); 
+    background: rgb(243, 243, 243);
+    font-family: main-font;
+    font-size: 13pt;
+   
+}
+.header{
+    height: 400px;
+    width: 1000px;
+    background-image:linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),  url(res/background6.jpg);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(238, 243, 255);
+}
+.infAboutMe{
+    display: grid;
+    grid-template-columns: 70px auto; 
+}
+.namePhoto{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 50px;
+    left: 75px;
+    text-align: center;
+    z-index: 100;
+    color: rgb(238, 243, 255);
+}
+img{
+    margin: auto;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    z-index: 100;
+    margin-top: 25px;
+}
+hr{
+    position: relative;
+    top: -150px;
+    left: 20px;;
+    z-index: 1;
+    width: 800px;
+    height: 1.5px;
+    background-color: rgb(114, 114, 114);
+    border:none;
+}
+.myPhrase{
+    position: relative;
+    top: -250px;
+    left:470px;
+    height: 100px;
+    width: 450px;
+    font-size: 15pt;
+}
+.infAboutMe {
+    font-size: 13pt; 
+    position: relative;
+    top: -215px;
+    left:470px;
+}
+.infAboutMe i,span{
+    padding: 3px;
+}
+.mainInf{
+    color: #4a4d4e;
+    height: 800px;
+    width: 850px;
+    margin:auto;
+    display: grid;
+    grid-template-columns: 450px 450px; 
+    padding: 30px;
+}
+.mainInf hr{
+    position: relative;
+    top:1px;
+    left:-40px;
+    width: 360px;
+}
+.skillsCard{
+    display: grid;
+    grid-template-columns:  100px auto; 
+}
+.skill{
+    display: grid;
+    grid-template-columns:  15px  15px  15px  15px  15px; 
+}
+.hobbi{
+    width: 400px;
+    display: grid;
+    grid-template-columns: auto auto auto; 
+    text-align: center;
+}
+.myPhotoHobbi{
+    height: 100px;
+    width: 100px;
+    margin-top: 25px;
+}
+.skill div{
+    margin: auto 10px;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%
+}
+.yes{
+    margin:auto 5px; 
+    background-color: rgb(117, 160, 185);
+}
+.no{
+    background-color: #C6D4DB ;
+}
+.languagesCard{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 170px 170px; 
+    grid-template-rows: 50px 20px; 
+    margin-top:20px;
+}
+.meter {
+    height: 10px;  
+    position: relative;
+    background: rgb(117, 160, 185);
+    border-radius: 25px;
+    padding: 10px;
+    box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+}
+.meter span {
+    display: block;
+    height: 100%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background-color: #c5d5e0;
+    position: relative;
+    top:-3px;
+    overflow: hidden;
+    background-image: linear-gradient(center bottom,#c5d5e0 37%, #C6D4DB 69%);
+}
+.meter span:after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background-image:linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%,
+          transparent 25%,transparent 50%, rgba(255, 255, 255, .2) 50%,
+          rgba(255, 255, 255, .2) 75%,transparent 75%, transparent);
+    z-index: 1;
+    background-size: 50px 50px;
+    overflow: hidden;
+}
+h4 {
+    margin: 5px;
+    margin-top:10px; 
+    padding: 0;
+    font-size: 16pt;
+}
+.titel{
+    color:#85bee4;
+    font-size: 18pt;
+    font-weight: bold;
+}
+.experience ul{
+    width: 360px;
+    margin-left:-20px;
+}
+.infAboutMe a{
+    color: rgb(238, 243, 255);
+    text-decoration: none; 
+}
+.infAboutMe a:hover{
+    color:rgb(44, 7, 255);
+}
+h3{
+    margin: 0;
+    margin-bottom: 15px;
+    padding: 0;
+}
+h1{
+    margin: 20px 0 10px 0;
+}
+.languagesName{
+    margin: 4px 0 0 15px;
+}
